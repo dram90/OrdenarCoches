@@ -7,9 +7,12 @@ public class CarPriorityQueue {
 
     public static void main(String args[]){
 
-        PriorityQueue<Car> carPriorityQueue = new PriorityQueue<>();
-        /*natural comparison of cars is defined by plate number,
-        for this reason, the queue will be sorted by this parameter*/
+        PriorityQueue<Car> carPriorityQueue = new PriorityQueue<>(new CarComparatorByYear());
+        /*
+        queue will be sorted by the parameter YearOfFab using the comparator method
+        instead of being sorted by plate number, which has been defined as the natural
+        comparison parameter
+        */
 
         Car car1= new Car (1L,"Jaguar","TheRoadIsYours",2016,"1234UKK");
         Car car2= new Car (2L,"BMW","LoveAtFirstDrive",2014,"9065GER");
