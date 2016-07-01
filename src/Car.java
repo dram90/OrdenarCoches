@@ -72,9 +72,9 @@ public class Car implements Comparable<Car> {
 
     public int compareTo(Car anotherCar){
 
-        System.out.println("Comparing the following two cars: ");
-        System.out.println(this);
-        System.out.println(anotherCar);
+       // System.out.println("Comparing the following two cars: ");
+       // System.out.println(this);
+       // System.out.println(anotherCar);
        return this.plateNumber.compareTo(anotherCar.plateNumber);
     }
 
