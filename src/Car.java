@@ -47,7 +47,7 @@ public class Car implements Comparable<Car> {
         return yearOfFab;
     }
 
-    public void setYearOfFab(String yearOfFab) {
+    public void setYearOfFab(Integer yearOfFab) {
         yearOfFab = yearOfFab;
     }
 
