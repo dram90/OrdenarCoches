@@ -1,8 +1,5 @@
 import java.util.PriorityQueue;
 
-/**
- * Created by Dimple on 01/07/2016.
- */
 public class CarPriorityQueue {
 
     public static void main(String args[]){

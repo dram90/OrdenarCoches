@@ -1,8 +1,6 @@
 import java.util.Comparator;
 
-/**
- * Created by professor on 29/06/2016.
- */
+
 public class Car implements Comparable<Car> {
 
     private long id;

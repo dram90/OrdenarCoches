@@ -3,9 +3,7 @@ import com.google.common.collect.ListMultimap;
 
 import java.util.List;
 
-/**
- * Created by professor on 01/07/2016.
- */
+
 public class CarMultiMap {
     static ListMultimap<Integer,Car> carMultimap = ArrayListMultimap.create();
 
